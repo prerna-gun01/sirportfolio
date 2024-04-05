@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
+
+.backgroundImage {
+    background-image: url('/Rectangle 375.png');
+
+    width: full;
+}
+
+.skew {
+    margin-top: -190px;
+    border: 2px dashed white;
+    transform: skewY(-13.58deg);
+}
+
+
+.skewr {
+    transform: skewY(13.58deg);
+
+}
+
+.fontNico {
+    font-family: 'Nico Moji';
+    /* Add stroke effect */
+    -webkit-text-stroke: 1px rgb(253, 253, 253);
+    /* For compatibility with some browsers */
+    text-stroke: 1px rgb(245, 245, 245);
+    /* Set fill color to transparent */
+    color: rgba(0, 0, 0, 0);
+    /* Transparent fill */
+    font-size: 150px;
+}
+
+.width {
+    width: 700px;
+}
+
+.textColor {
+    font-size: 36px;
+    background-image: radial-gradient(circle, #C683D0, #0070AA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.fontMont {
+    font-family: 'Montserrat', sans-serif;
+    /* Add stroke effect */
+    -webkit-text-stroke: 1px rgb(253, 253, 253);
+    /* For compatibility with some browsers */
+    text-stroke: 1px rgb(245, 245, 245);
+    /* Set fill color to transparent */
+    color: rgba(0, 0, 0, 0);
+    /* Transparent fill */
+    
+}
